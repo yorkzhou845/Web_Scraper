@@ -15,8 +15,8 @@ The scraper also uses `concurrent.futures.ThreadPoolExecutor` to request multipl
 
 | Workers | Execution Time |
 |---|---|
-| 1 | 0.804 seconds |
-| 5 | 0.053 seconds |
+| 1 | 0.476 seconds |
+| 5 | 0.049 seconds |
 
 In this test, using five workers was approximately **15.17 times faster**, reducing execution time by **93.4%**.
 
